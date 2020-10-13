@@ -43,6 +43,6 @@ with(data_feb2,{
     legend("topright",lty=1,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
     
     plot(data_feb2$date_and_time,Voltage,type="l",ylab="Voltage",xlab="datetime")
-    plot(data_feb2$date_and_time,Global_reactive_power,type="l",ylab="Voltage",xlab="datetime")
+    plot(data_feb2$date_and_time,Global_reactive_power,type="l",ylab="Global_reactive_power",xlab="datetime")
 })
 dev.off()
