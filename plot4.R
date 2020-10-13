@@ -30,7 +30,7 @@ tail(data_feb2)
 
 #plot 4
 
-png(file="plot4.png", width=480, height=480)
+png(file ="plot4.png", width=480, height=480)
 par(mfcol=c(2,2),mar=c(4,4,2,1),oma=c(0,0,2,0))
 
 with(data_feb2,{
